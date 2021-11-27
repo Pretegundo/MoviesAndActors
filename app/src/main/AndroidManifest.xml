@@ -11,7 +11,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MoviesAndActors">
-        <activity android:name=".ui.activities.WelcomeActivity"></activity>
+        <activity android:name=".ui.activities.OfficialGenresActivity"></activity>
+        <activity android:name=".ui.activities.AvailableRegionActivity" />
+        <activity
+            android:name=".ui.activities.EpisodeActivity"
+            android:exported="false" />
+        <activity
+        android:name=".ui.activities.SerieInfoActivity"
+        android:exported="false" />
+        <activity
+            android:name=".ui.activities.SeasonActivity"
+            android:exported="false" />
+        <activity android:name=".ui.activities.ProviderStreamingActivity" />
+        <activity
+            android:name=".ui.activities.AtorMovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.AtoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.MovieInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.MovieCastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.MoviesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.SeriesActivity"
+            android:exported="false" />
+        <activity android:name=".ui.activities.PersonPopularActivity" />
+        <activity android:name=".ui.activities.WelcomeActivity" />
         <activity android:name=".ui.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
